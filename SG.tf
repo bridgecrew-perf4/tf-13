@@ -1,6 +1,6 @@
 esource "aws_security_group" "danish-sg" {
   name ="danish-sg"
-  description = "secuirty group for ec2 machine"
+  description = "secuirty group for danish machine"
 
 ingress  {
   from_port = 22
